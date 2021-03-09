@@ -1,0 +1,39 @@
+.main{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.main h2{
+    margin: 20px 0 30px;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    background: #444444;
+    color: white;
+    line-height: 60px;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 4px black;
+}
+.main p{
+    text-align:justify;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+#football p{
+    margin-top: 15px;
+}
+.main img{
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.association{
+    width: 35%;
+}
+.penalti{
+    width: 35%;
+}
