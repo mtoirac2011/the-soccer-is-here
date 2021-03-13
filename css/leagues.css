@@ -1,0 +1,72 @@
+.main{
+    width: 98%;
+    margin: 0 auto;
+}
+.main-body{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main h2{
+    margin: 20px 0 30px;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    background: #444444;
+    color: white;
+    line-height: 60px;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 4px black;
+}
+.menu-leagues{
+    flex-basis: 50%;
+    position: sticky;
+    top: 0;
+    background: #444444;
+    margin-right: 20px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.menu-leagues ol{
+    color: white;
+    padding: 5px;
+    margin-left: 35px;
+    
+    
+}
+.menu-leagues ol li{
+    height: 15px;
+    padding: 12px;
+    transition: all 300ms;
+}
+.menu-leagues ol li a{
+    color: white;
+    text-decoration: none;
+}
+.menu-leagues ol li:hover a{
+    text-decoration: underline;
+}
+
+p{
+    text-align:justify;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.all-content-leagues{
+    padding-left: 20px;
+}
+.content-leagues{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    margin-bottom: 20px;
+}
+.content-leagues:last-child{
+    border-bottom: none
+}

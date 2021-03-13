@@ -119,6 +119,15 @@ body{
     box-shadow: 0px 0px 2px black inset;
 }
 
+@media only screen and (max-width: 1215px) {
+    .all-content-leagues{
+        flex-basis: 80%;
+    }
+    .all-content-leagues > .content-leagues > img{
+    width: 60%;
+    }
+}
+
 @media only screen and (max-width: 1026px) {
     .main .rows{
         flex-direction: column;
@@ -171,7 +180,27 @@ body{
         margin-left: 2%;
     }
 }
-
+/* Menu Leagues */
+@media only screen and (max-width: 710px) {
+    .main-body{
+        flex-direction: column;
+    }
+    .menu-leagues{
+        position: absolute;
+        padding-bottom: 15px;
+    }
+    .menu-leagues ol li a{
+        margin-left: 5px;
+    }
+    .menu-leagues ol li{
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .all-content-leagues > .content-leagues > img{
+        width: 30%;
+    }
+}
 @media only screen and (max-width: 642px) {
     .main-header > .header-h1 > h1{
        line-height: 120px;
@@ -327,29 +356,5 @@ body{
 }
 
 /* HTMLs */
-.main{
-    width: 98%;
-    margin: 0 auto;
-}
 
-.main h2{
-    margin: 20px 0 30px;
-    height: 60px;
-    text-align: center;
-    width: 100%;
-    background: #444444;
-    color: white;
-    line-height: 60px;
-    padding-left: 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    box-shadow: 4px 4px 4px black;
-}
 
-/* .main p{
-    text-align:justify;
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-} */

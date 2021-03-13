@@ -49,3 +49,21 @@
     float: right;
     margin-left: 10px;
 }
+
+/* Video */
+.video-container{
+    width: 460px;
+    float: left;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #beb6b6;
+}
+.video-btns{
+    margin-left: 30%;
+}
+.video-btns button{
+    padding: 10px;
+}
