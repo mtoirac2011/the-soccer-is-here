@@ -351,8 +351,7 @@ body{
     margin-top: 10px;
 }
 .footerline1 a:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline; 
 }
 
 /* HTMLs */
