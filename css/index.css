@@ -3,14 +3,8 @@ body{
     padding:0px;
     color: white;
     box-sizing: border-box;
-    margin: 0px;
-    background-image: url(../img/ball-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    /* overflow: hidden; */
-    background-position: 0px -165px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    z-index: 0;
+    background: black; 
 }
 
 header{
@@ -24,50 +18,77 @@ header a{
     text-decoration: none;
     color: white;
     font-size: 13px;
-    /* animation: all 300ms; */
+    animation: all 300ms;
 }
 header a:hover{
-    animation: animatelink;
-    animation-duration: 3ms;
-    animation-timing-function: linear;
+    text-decoration: underline;
 }
-@keyframes animatelink{
-    0%{
-        transform: scale(1);
+
+/*  MAIN */
+.main{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ball-img{
+    flex-basis: 60%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 750px) {
+    .main{
+        flex-direction: column-reverse;
+        align-items: center; 
+
     }
-    0%{
-        transform: scale(1.2);
+    .ball-img{
+        width: 280px;
+    } 
+    .main .lateral h1{
+        font-size: 26px;
     }
 }
 
+
+.ball-img img{
+    width: 70%;
+    padding-left: 10%;
+    transform: translateX(600px);
+    animation: animate-ball;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    transform: translateX(0px);
+}
 .lateral{
-    width: 80%;
+    width: 60%;
     margin-left: 10%;
     height: 360px;
-    margin-top: 100px;
     z-index: 3;
 }
 .lateral h1{
     font-size: 40px;
     text-transform: uppercase;
+    animation: animate-ball;
+    animation-timing-function: linear;
+    animation-duration: 4s;
 }
 .lateral p{
-    width: 41%;
+    width: 90%;
     margin-left: 20px;
     margin-top: 10px;
     text-align: justify;
     line-height: 1.8;
 }
 
-
 /* Footer */
-/* Footer line1/line2 */
+
+footer{
+    margin-top: 50px;
+}
 .footerline1,
 .footerline2{
     font-size: 14px;
-    background: black;
     text-align: center;
-    padding-top: 20px;
     color: white;
 }
 .footerline2{

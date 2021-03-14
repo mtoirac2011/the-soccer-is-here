@@ -3,6 +3,41 @@
     0%{
         transform: translateX(0px);
     }
+    15%{
+        transform: rotateZ(20deg);
+    }
+    30%{
+        transform: translateY(90px);
+    }
+    50%{
+        transform: translateX(-790px);
+    }
+    75%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+/* Header menu */
+@keyframes menu-header{
+    from{
+        transform: translateX(1);
+    }
+    to{
+        transform: translateX(1.50);
+    }
+}
+
+
+
+
+/* 
+@keyframes animate-ball{
+    0%{
+        transform: translateX(0px);
+    }
     25%{
         transform: rotateZ(50deg);
     }
@@ -20,7 +55,7 @@
     }
 }
 
-/* Header menu */
+
 @keyframes menu-header{
     from{
         transform: translateX(1);
@@ -28,5 +63,4 @@
     to{
         transform: translateX(1.50);
     }
-}
-
+} */
