@@ -1,39 +1,85 @@
-.main{
-    width: 98%;
-    margin: 0 auto;
+body{
+    margin: 0px;
+    padding:0px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    background-image: url(../img/ball-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* overflow: hidden; */
+    background-position: 0px -165px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 0;
 }
 
-.main h2{
-    margin: 20px 0 30px;
-    height: 60px;
-    text-align: center;
-    width: 100%;
-    background: #444444;
+header{
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: right;
+    margin-bottom: 50px;
+}
+header a{
+    padding-right: 20px;
+    text-decoration: none;
     color: white;
-    line-height: 60px;
-    padding-left: 10px;
-    border-radius: 5px;
+    font-size: 13px;
+    /* animation: all 300ms; */
+}
+header a:hover{
+    animation: animatelink;
+    animation-duration: 3ms;
+    animation-timing-function: linear;
+}
+@keyframes animatelink{
+    0%{
+        transform: scale(1);
+    }
+    0%{
+        transform: scale(1.2);
+    }
+}
+
+.lateral{
+    width: 80%;
+    margin-left: 10%;
+    height: 360px;
+    margin-top: 100px;
+    z-index: 3;
+}
+.lateral h1{
+    font-size: 40px;
     text-transform: uppercase;
-    box-shadow: 4px 4px 4px black;
 }
-.main p{
-    text-align:justify;
+.lateral p{
+    width: 41%;
+    margin-left: 20px;
     margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
+    text-align: justify;
+    line-height: 1.8;
 }
-#football p{
-    margin-top: 15px;
+
+
+/* Footer */
+/* Footer line1/line2 */
+.footerline1,
+.footerline2{
+    font-size: 14px;
+    background: black;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
 }
-.main img{
+.footerline2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footerline1 a{
+    color: white;
+    transition: all 300ms;
+    text-decoration: none;
     margin-top: 10px;
-    float: left;
-    margin-right: 10px;
 }
-.association{
-    width: 35%;
-}
-.penalti{
-    width: 35%;
+.footerline1 a:hover{
+    text-decoration: underline; 
 }
