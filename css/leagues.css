@@ -43,7 +43,7 @@
     border-radius: 5px;
 }
 .menu-leagues ol li:nth-of-type(2n){
-    background: #3f3e3e
+    background: #3f3e3e;
 }
 .menu-leagues ol li a{
     color: white;

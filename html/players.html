@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/soccerball.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/stadiums.css">
+    <link rel="stylesheet" href="../css/players.css">
     <title>Soccer is here</title>
-    <script src="sounds.js" type="text/javascript"></script>
+
+    <script src="../js/script.js"></script>
 </head>
+
 <body>
-    <audio autoplay="autoplay">   
-        <source src="css/audio/soccerballkicksound.wav" />   
-    </audio> 
     <!-- Header -->
     <header class="main-header">
         <div class="header-img">
@@ -46,55 +46,44 @@
                 <a href="leagues.html">Top ten soccer leagues</a>
             </li>
             <li>
-                <a href="players.html">Best soccer players today</a>
+                <a href="stadiums.html">Best soccer stadiums</a>
             </li>
 
         </ul>
     </nav>
-    
+
     <!--  *********** Main Body HTMLs ******* -->
     <main class="main">
-        <h2>Soccer Stadiums</h2>
-        <div class="rows">
-            <div class="stadiums">
-                <img src="../img/01-Wembley-Stadiumw.jpg" alt="">
+        <div id="football">
+            <h2>Best soccer players today</h2>
+        </div>
+        <form class="form-btn">
+            <input class="btn1" type="button" value="<<" onclick="fprev()">
+            <input class="btn2" type="button" value=">>" onclick="fnext()">
+        </form>
+        <div id="container">
+            <div class="box1">
+                <img src="../img/players/player1.jpg" alt="Soccer player" id="img-left">
             </div>
-            <div class="stadiums">
-                <img src="../img/02-campnou.jpg" alt="">
+            <div class="box2">
+                <h3 id="player-name">Lionel Messi</h3>
+                <img src="../img/players/club1.jpg" alt="" id="img-right">
+                <p id="descrip">
+                    La Pulga Atómica (the Atomic Flea) has remained at the top of this list for over a decade now, and
+                    at 33, he’s still going strong. In fact, sensational stats and seasons have become second nature for
+                    him. Despite missing Barcelona’s first four games of the season due to injury, Messi is likely to
+                    win La Liga top scorer for the seventh time in his career with 22 goals so far and three games left
+                    to play. Along with those 22 goals, Messi has 20 assists in the league so far, beating his own
+                    personal record of 18 in a season and totaling 42 goal contributions in 30 league games. For any
+                    player, that’s the season of a lifetime. For Lionel Messi, that’s business as usual. In all
+                    competitions, Messi has 27 goals and 24 assists and is hoping to lead Barcelona to its first
+                    Champions League title since its treble win in the 2014-15 season. Messi is also the most recent
+                    player to win the Ballon d’Or, just barely beating out Liverpool defender Virgil van Dijk by seven
+                    points.
+                </p>
             </div>
         </div>
-
-        <div class="rows">
-            <div class="stadiums">
-                <img src="../img/03-santiagobernabeu.jpg" alt="">
-            </div>
-            <div class="stadiums">
-                <img src="../img/04-old-trafford.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="rows">
-            <div class="stadiums">
-                <img src="../img/05-maracana.jpg" alt="">
-            </div>
-            <div class="stadiums">
-                <img src="../img/06-Allianz_Arena.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="rows">
-            <div class="stadiums">
-                <img src="../img/07--azteca.jpg" alt="">
-            </div>
-            <div class="stadiums">
-                <img src="../img/07--azteca.jpg" alt="">
-            </div>
-        </div>
-
     </main>
-    <br>
-    <br>
-
     <!--  *********** Footer ******* -->
     <footer class="footer">
         <div class="footer-menu">
@@ -102,33 +91,32 @@
             <nav class="footer-menu-nav">
                 <ul>
                     <li>
-                        <a href="#">Soccer history</a>
+                        <a href="association.html">Assocition football</a>
                     </li>
                     <li>
-                        <a href="#">Leagues around the world</a>
+                        <a href="history.html">Soccer history</a>
                     </li>
                     <li>
-                        <a href="#">Soccer stadiums</a>
+                        <a href="leagues.html">Leagues around the world</a>
                     </li>
                     <li>
-                        <a href="#">Best soccer players today</a>
+                        <a href="stadiums.html">Soccer stadiums</a>
                     </li>
-                    <li>
-                        <a href="#">Soccer in the United Sates</a>
-                    </li>
+
                 </ul>
             </nav>
         </div>
-        
+
         <div class="footer-where">
             <h3>Where we are...</h3>
             <div class="footer-where-iframe">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d337547.34716705786!2d-85.89020596167462!3d38.185638440015616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690b1ab35bd511%3A0xd4d3b4282071fd32!2sLouisville%2C%20KY!5e0!3m2!1sen!2sus!4v1614543059386!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d337547.34716705786!2d-85.89020596167462!3d38.185638440015616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690b1ab35bd511%3A0xd4d3b4282071fd32!2sLouisville%2C%20KY!5e0!3m2!1sen!2sus!4v1614543059386!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
         </div>
-        
+
         <div class="footer-followme">
             <h3>Follow us</h3>
             <div class="footer-followme-links">
@@ -158,4 +146,5 @@
         <p class="footerline2">Soccer is here &copy;Copyright 2021</p>
     </div>
 </body>
+
 </html>
