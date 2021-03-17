@@ -13,6 +13,7 @@
 #container .box1 img{
     width: 100%;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 #container .box1{
     margin-right: 20px;
@@ -50,10 +51,10 @@
     box-shadow: 4px 4px 4px black;
 }
 .form-btn{
-    width: 98%;
-    margin: 0 auto;
-    min-height: 20px;
-    line-height: 20px;
+    width: 103px;
+    margin-left: 30px;
+    height: 30px;
+    line-height: 30px;
     background: rgb(143, 140, 140);
     margin-bottom: 5px;
     border-radius: 10px;
@@ -65,4 +66,5 @@
 .btn2{
     color: #eee;
     background: #444;
+    padding: 1px;
 }
