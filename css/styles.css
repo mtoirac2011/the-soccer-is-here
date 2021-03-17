@@ -159,21 +159,23 @@ body{
     }
 }
 
+/*  Players also*/
 @media only screen and (max-width: 925px) {
     .main-menu li{
         margin-bottom: 3px;
    }
-   /* ========================================================== */
-   #container .box2 img{
-        display: none;
+   .main #container{
+    display: flex;
+    flex-direction: column;
     }
-
+    .main #container .box1{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 780px) {
     .footer{
         flex-direction: column;
-        /* align-items: center; */
     }
     .footer h3{
         margin: 10px 10px;

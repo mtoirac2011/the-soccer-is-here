@@ -52,8 +52,9 @@ function fnext(){
     const playerName = document.getElementById("player-name");
     const playerDesc = document.getElementById("descrip");
     num++;
-    if (num > 10)
+    if (num > 10){
         num = 1;
+    }
     playerName.innerHTML = players[num-1];
     playerDesc.innerHTML = descrip[num-1];
     imagenLeft.src = "../img/players/"+"player"+num+".jpg";
@@ -66,8 +67,9 @@ function fprev(){
     const playerName = document.getElementById("player-name");
     const playerDesc = document.getElementById("descrip");
     num--;
-    if (num < 1)
+    if (num < 1){
         num = 10;
+    }
     playerName.innerHTML = players[num-1];
     playerDesc.innerHTML = descrip[num-1];
     imagenLeft.src = "../img/players/"+"player"+num+".jpg";
