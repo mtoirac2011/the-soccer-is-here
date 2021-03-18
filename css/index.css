@@ -49,7 +49,7 @@ header a:hover{
     margin-left: 80px;
 }
 .main .ball-img img{
-    width: 50%;
+    width: 60%;
     transform: translateX(600px);
     animation: animate-ball;
     animation-timing-function: linear;
@@ -57,30 +57,14 @@ header a:hover{
     transform: translateX(0px);
 }
 
-
-/* .ball-img img{
-    width: 60%;
-    padding-left: 20%;
-    transform: translateX(600px);
-    animation: animate-ball;
-    animation-timing-function: linear;
-    animation-duration: 3s;
-    transform: translateX(0px);
-} */
-/* .lateral{
-    width: 60%;
-    margin-left: 10%;
-    height: 250px;
-    z-index: 3;
-} */
 .lateral h1{
     font-size: 40px;
     text-transform: uppercase;
     animation: animate-ball;
     animation-timing-function: linear;
     animation-duration: 4s;
-    /* margin-bottom: 30px; */
 }
+
 .lateral p{
     width: 80%;
     margin-left: 20px;
@@ -91,7 +75,7 @@ header a:hover{
 
 /* START */
 .start{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 80px;
     height: 30px;
     margin-left: 47%;
@@ -115,7 +99,7 @@ header a:hover{
 /* Footer */
 
 footer{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .footerline1,
 .footerline2{
@@ -137,7 +121,7 @@ footer{
     text-decoration: underline; 
 }
 
-/* Media Queries */
+/* Media Queries */ 
 @media only screen and (max-width: 890px) {
     .main{
         flex-direction: column-reverse;
