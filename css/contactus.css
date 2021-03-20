@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header */
+header{
+    height: 80px;
+}
+header .img-h1{
+    width: 90%;
+    margin: 0 auto;
+}
+header .img-h1 img{
+    width: 75px;
+    float: left;
+    transform: translateY(-10px);
+}
+header .img-h1 h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* Banner */
+.banner {
+    /* height: 300px; */
+    height: auto;
+    overflow: hidden;
+    transition: all 300ms;
+    position: relative;
+}
+.banner  img{
+    width: 100%;
+    filter: blur(2px);
+    transform: translateY(-50px);
+    opacity: 0.5;
+    height: 100%;
+    margin-bottom: 0px;
+}
+.banner-body{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.banner-body h2{
+    font-size: 60px;
+    color: white;
+    letter-spacing: 3px;
+    z-index: 3;
+    transform: translateY(-350px);
+    margin-left: 37%;
+} 
+.banner-body p{
+    transform: translateY(-380px);
+    width: 70%;
+    margin-left: 20%;
+    color: white;
+    text-align: center;
+}
+/*  Formulario*/
+main{
+    width: 100%;
+    background: rgb(68, 83, 43);
+    opacity: 0.8;
+}
+.form-box{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 10px;
+}
+.form-box h3{
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.form-box form label{
+    color: rgb(155, 150, 150);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-box form input{
+    height: 30px;
+    width: 70%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.form-box form textarea{
+    width: 70%;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.form-box form button{
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(155, 150, 150);
+    border: 3px solid rgb(2, 65, 2);
+    transition: all 300ms;
+}
+.form-box form button:hover{
+    background: rgb(89, 122, 35);
+    color: white;
+}
+
+/* Footer line1/line2 */
+.footerline1,
+.footerline2{
+    font-size: 14px;
+    background: black;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.footerline2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footerline1 a{
+    color: white;
+    transition: all 300ms;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.footerline1 a:hover{
+    text-decoration: underline; 
+}
