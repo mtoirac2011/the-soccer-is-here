@@ -1,12 +1,8 @@
 window.addEventListener('load', function(){
 
-    console.log('DOM capturado');
-
     var formulario = document.querySelector("#formulario");
     
     formulario.addEventListener('submit', function(){
-
-        console.log('Submit event captured');
 
         var validated = true;
         var name = document.querySelector("#name").value;

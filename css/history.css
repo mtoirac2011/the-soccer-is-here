@@ -1,5 +1,5 @@
 .main{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -9,6 +9,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     line-height: 1.6;
+}
+.main p:last-child{
+    margin-bottom: 20px;
 }
 .main h2{
     margin: 20px 0 30px;

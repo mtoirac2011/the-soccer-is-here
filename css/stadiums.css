@@ -1,6 +1,6 @@
 /* MAIN Stadiums*/
 .main{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     flex-basis: 50%;
 }
 .campnou{
-    height: 70.5%;
+    height: 68%;
 }
 .stadiums-descrip{
     width: 97%;
@@ -52,4 +52,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     line-height: 1.6;
+}
+.stadiums-descrip p:last-child{
+    margin-bottom: 20px;
 }

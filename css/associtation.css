@@ -1,5 +1,5 @@
 .main{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -25,6 +25,9 @@
 }
 #football p{
     margin-top: 15px;
+}
+#football p:last-child{
+    margin-bottom: 20px;
 }
 .main img{
     margin-top: 10px;

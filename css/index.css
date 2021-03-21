@@ -25,14 +25,7 @@ header a:hover{
 }
 
 /*  MAIN */
-/* .main{
-    display: flex;
-    margin-bottom: 30px;
-}
 
-.ball-img{
-    flex-basis: 60%;
-} */
 .main{
     width: 98%;
     display: flex;
