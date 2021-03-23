@@ -55,7 +55,7 @@
 
 /* Video */
 .video-container{
-    width: 380px;
+    width: 360px;
     float: left;
     padding: 5px;
     border-radius: 3px;
@@ -65,7 +65,7 @@
     background: #beb6b6;
 }
 #video1{
-    width: 370px;
+    width: 350px;
 }
 .video-btns{
     margin-left: 30%;
