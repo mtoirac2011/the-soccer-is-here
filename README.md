@@ -1,5 +1,6 @@
 # THE SOCCER IS HERE
 A Front-End Code-Louisville Project.
+##### Version 1.0
 
 ## Welcome to the official repository of The soccer is here!
 
@@ -19,7 +20,7 @@ The design of the site is completely adaptable to most devices.
 
 ### Home Page
 It welcomes the site and allows access to the other pages.
-(index.html)
+###### (index.html)
 
 ### Contact Us
 It simulates an input form to receive extra information from the project developer. 
@@ -35,7 +36,7 @@ Provides information about the origin of this game and more elements about it.
 All video controls are managed for JavaScript.
 ###### (history.html)
 
-###Best soccer stadiums
+### Best soccer stadiums
 Shows some of the best soccer stadiums in the world.
 ###### (stadiums.html)
 
