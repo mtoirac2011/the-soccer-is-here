@@ -12,27 +12,28 @@ window.addEventListener('load', function(){
 
         if (name.trim() == null || name.trim().length == 0){
             alert('The First Name is not valid');
+            validated = false;
             return false;
         }
         if (lastname.trim() == null || lastname.trim().length == 0){
             alert('The Last Name is not valid');
+            validated = false;
             return false;
         }
         if (email.trim() == null || email.trim().length == 0){
             alert('The Email is not valid');
+            validated = false;
             return false;
         }
-        if (phone.trim() == null || phone.trim().length == 0 || isNaN(phone.trim())){
+        if (phone.trim() == null || phone.trim().length < 10 || isNaN(phone.trim())){
             alert('The Phone is not valid');
+            validated = false;
             return false;
         }
         if (validated){
-            document.querySelector("#name").innerHTML = "";
-            document.querySelector("#lastname").innerHTML = "";
-            document.querySelector("#email").innerHTML = "";
-            document.querySelector("#phone").innerHTML = "";
-            document.querySelector("#message").innerHTML = "";
             alert("The form has been validated successfully");
+            formulario.reset();
         }
+        
     });
 });
