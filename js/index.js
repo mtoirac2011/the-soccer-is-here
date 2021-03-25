@@ -1,8 +1,5 @@
-
-var imagen = document.getElementById("image");
-
 var changeImg = () => {
-    imagen.innerHTML  = "img/soccerball.png";
+    var imagen = document.getElementById("image");
+    imagen.src  = "img/soccerball.png";
 }
-
 setTimeout(changeImg, 4000);

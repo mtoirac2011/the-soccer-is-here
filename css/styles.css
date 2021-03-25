@@ -120,7 +120,7 @@ body{
         flex-basis: 80%;
     }
     .all-content-leagues > .content-leagues > img{
-    width: 60%;
+        width: 30%;
     }
 }
 
@@ -140,7 +140,6 @@ body{
         align-items:center;
      }
      .main-header > .header-img > img{
-
         margin-top: 5px;
         margin-bottom: 0;
     }
@@ -154,7 +153,6 @@ body{
     }
 }
 
-/*  Players also*/
 @media only screen and (max-width: 925px) {
     .main-menu li{
         margin-bottom: 3px;
@@ -185,22 +183,21 @@ body{
 
 @media only screen and (max-width: 710px) {
     .main-body{
-        flex-direction: column;
+        flex-direction: column; 
     }
     .menu-leagues{
-        position: absolute;
-        padding-bottom: 15px;
+        display: none;
     }
     .menu-leagues ol li a{
         margin-left: 5px;
     }
     .menu-leagues ol li{
         float: left;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .all-content-leagues > .content-leagues > img{
-        width: 30%;
+        width: 40%;
     }
 }
 @media only screen and (max-width: 642px) {
@@ -212,9 +209,7 @@ body{
        font-size: 14px;
        line-height: 55px;
    }
- 
 }
-
 @media only screen and (max-width: 552px) {
     .main-header > .header-h1 > h1{
        line-height: 120px;

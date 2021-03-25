@@ -11,7 +11,7 @@ window.addEventListener('load', function(){
         var phone = document.querySelector("#phone").value;
 
         if (name.trim() == null || name.trim().length == 0){
-            alert('The name is not valid');
+            alert('The First Name is not valid');
             return false;
         }
         if (lastname.trim() == null || lastname.trim().length == 0){

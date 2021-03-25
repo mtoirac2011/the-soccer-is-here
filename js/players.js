@@ -1,31 +1,4 @@
-// Script for Home page
-// function changeImage() {
-//     document.getElementById("image").src = "img/soccerball.png";
-// }
-// setTimeout(changeImage(), 4000);
 
-// Script for VIDEO
-// =================
-
-var miVideo = document.getElementById("video1");
-
-function playPause() {
-    if (miVideo.paused)
-        miVideo.play();
-    else
-        miVideo.pause();
-}
-
-function stop() {
-    miVideo.pause();
-    miVideo.currentTime = 0;
-}
-
-function skip(value) {
-    miVideo.currentTime += value;
-}
-
-// Script for players
 let players = [
     "Lionel Messi", "Cristiano Ronaldo", "Neymar Jr.", "Robert Lewandowski",
     "Kylian Mbappe", "Kevin De Bruyne", "Virgil van Dijk", "Sadio Mané", 

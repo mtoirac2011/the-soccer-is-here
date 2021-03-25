@@ -29,38 +29,3 @@
         transform: translateX(1.50);
     }
 }
-
-
-
-
-/* 
-@keyframes animate-ball{
-    0%{
-        transform: translateX(0px);
-    }
-    25%{
-        transform: rotateZ(50deg);
-    }
-    35%{
-        transform: translateY(50px);
-    }
-    50%{
-        transform: translateX(850px);
-    }
-    75%{
-        transform: rotateZ(20deg);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
-
-
-@keyframes menu-header{
-    from{
-        transform: translateX(1);
-    }
-    to{
-        transform: translateX(1.50);
-    }
-} */
