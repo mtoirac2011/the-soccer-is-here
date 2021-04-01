@@ -20,7 +20,7 @@ The design of the site is completely adaptable to most devices.
 * ### Best soccer players today 
 
 ### Home Page
-It welcomes the site and allows access to the other pages.
+It welcomes the site and allows access to the other pages. It also plays an audio for severl minutes (audio/Martin Tyler-Best Moments.mp3).
 ###### (index.html)
 
 ### Contact Us
@@ -34,7 +34,7 @@ Explains rules and how the game is played.
 
 ###  Soccer history 
 Provides information about the origin of this game and more elements about it. 
-All video controls are managed for JavaScript.
+All video controls are managed for JavaScript (video/soccerHistory.mp4).
 ###### (history.html)
 
 ### Best soccer stadiums

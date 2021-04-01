@@ -20,12 +20,3 @@
     }
 }
 
-/* Header menu */
-@keyframes menu-header{
-    from{
-        transform: translateX(1);
-    }
-    to{
-        transform: translateX(1.50);
-    }
-}

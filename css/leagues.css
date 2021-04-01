@@ -30,14 +30,7 @@
     height: 320px;
     border-radius: 5px;
 }
-/* Jacob */
-/* :target {
-    display: block;
-    position: relative;
-    top: 60px; 
-    visibility: hidden;
-  } */
-  
+
 .menu-leagues ol{
     color: white;
     padding: 5px;
@@ -78,4 +71,8 @@
 }
 .content-leagues:last-child{
     border-bottom: none
+}
+
+#mls {
+    margin-bottom: 20px;
 }
