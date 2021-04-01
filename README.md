@@ -1,5 +1,5 @@
-![soccerball - readme](https://user-images.githubusercontent.com/77536917/113232777-d2292580-926b-11eb-806d-120f0c238d54.png)
-# THE SOCCER IS HERE
+![banner-readme](https://user-images.githubusercontent.com/77536917/113354784-afe7e400-930d-11eb-9346-040217459fe1.png)
+
 A Front-End Code-Louisville Project.
 ##### Version 1.0
 
@@ -20,7 +20,7 @@ The design of the site is completely adaptable to most devices.
 * ### Best soccer players today 
 
 ### Home Page
-It welcomes the site and allows access to the other pages. It also plays an audio for severl minutes (audio/Martin Tyler-Best Moments.mp3).
+It welcomes the site and allows access to the other pages. It also plays an audio for several minutes (audio/Martin Tyler-Best Moments.mp3).
 ###### (index.html)
 
 ### Contact Us
